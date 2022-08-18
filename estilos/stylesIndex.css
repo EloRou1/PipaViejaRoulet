@@ -156,15 +156,22 @@
         background-color:rgb(37, 66, 94) ;
         
     }
+    .logoHeader{
+        padding: 0px;
+        width: 150px;
+        height: 150px;
+    }
+    
+    
     .headerMenu{
+        grid-area: header;
         display: flex;
+        flex-direction: row;
         justify-content: center;  
         align-content: center;
         background-color: rgb(240, 224, 199);
         height: 150px;
-        width: 100%;
         font-family: 'Roboto Condensed', sans-serif;
-        grid-area: header;
     }
     .navegacion{
         list-style-type: none;
