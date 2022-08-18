@@ -1,0 +1,285 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.logoHeader{
+    padding: 0px;
+    width: 100%;
+    height: 40%;
+    
+}
+
+
+.headerMenu{
+    grid-area: header;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;  
+    align-content: center;
+    background-color: rgb(240, 224, 199);
+    height: 300px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navegacion{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 20% 20% 20%;
+    height: 45%;
+    width: 100%;
+    flex-flow: column;
+    background-color:rgb(240, 224, 199);
+    justify-content:space-evenly;
+    transform: translateY(25px);
+    
+}
+
+.botonNav{
+    display:inline;
+    background-color: rgb(37, 66, 94);
+    text-decoration: none;
+    color: rgb(251, 251, 251);
+    padding: 10px 20px 10px 20px;
+    border-bottom:3px solid rgb(31, 56, 80) ;
+    border-right: 3px solid rgb(31, 56, 80); 
+    border-radius: 10%;
+    margin-top: 10px;
+}
+.botonNav:hover {
+    color:rgb(240, 224, 199);
+
+}
+
+
+.piePagina{
+    background-color: rgb(47, 47, 47);
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 10px;
+    flex-flow: row; 
+    font-family: 'Roboto Condensed', sans-serif;   
+    grid-area: footer;
+}
+.piePagina_tituloMaps{
+    padding-bottom: 10px;
+}
+.piePagina iframe{
+   width: 100%;
+
+}
+.piePagina_1{
+    padding: 5px;
+    flex-flow: column;
+}
+.piePagina_2{
+    padding-top: 20 px;
+    flex-flow: column;
+    
+}
+.derechos{
+    color: rgb(91, 91, 91);
+}
+.linkFooter{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+.logoFooter{
+    width: 15px;
+    height: 15px;
+    border-radius: 5%;
+    background-color: none;
+    margin-right: 2px;
+}
+
+
+.titulosPag{
+    grid-area: tituloPag    ;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:rgb(37, 66, 94) ;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+.formularioContacto1{
+    
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(37, 66, 94);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    grid-area: formulario1;
+}
+.inputFormulario{
+    color: rgb(1, 1, 1);
+    background-color: rgb(240, 224, 199);
+    border-style: none;
+    border-bottom:3px solid rgb(240, 224, 199) ;
+    border-right: 3px solid rgb(240, 224, 199); 
+    text-decoration: none;
+    border-radius: 5%;
+    padding: 3px;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 60%;
+    margin-top: 3px;
+}
+.inputFormulario1{
+    color: rgb(1, 1, 1);
+    background-color: rgb(240, 224, 199);
+    border-style: none;
+    border-bottom:3px solid rgb(240, 224, 199) ;
+    border-right: 3px solid rgb(240, 224, 199); 
+    text-decoration: none;
+    border-radius: 5%;
+    padding: 3px;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 10%;
+    margin-top: 3px;
+}
+.formularioContacto1-botones{
+    margin-top: 10px;
+}
+
+.formularioContacto1-label{
+    margin-top: 3px;
+
+}
+.formularioContacto2{
+   
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(37, 66, 94);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    grid-area: formulario2;
+    
+
+}
+.slider{
+    grid-area: slider;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(37, 66, 94);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(240, 224, 199);
+}
+.texto{
+    background-color: rgb(37, 66, 94);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+#grillaContacto{
+    grid-template-areas: 
+    "header"
+    "formulario1"
+    "formulario2"
+    "slider"
+    "footer";
+    background-color: rgb(37, 66, 94);
+
+}
+@media screen and (min-width:1024px) {
+    
+
+    #grillaContacto{
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "tituloPag tituloPag tituloPag"
+        "formulario1 formulario2 slider"
+        "formulario1 Formulario2 slider"
+        "footer footer footer";
+        background-color: rgb(37, 66, 94) ;
+
+    }
+    .slider{
+        grid-area: slider;
+        height: 500px;
+        width: 250px;
+        background-color: rgb(37, 66, 94);
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(240, 224, 199);
+        margin: 5px 0px 20px 10px
+    }
+    .logoHeader{
+        padding: 0px;
+        width: 150px;
+        height: 150px;
+    }
+    
+    
+    .headerMenu{
+        grid-area: header;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;  
+        align-content: center;
+        background-color: rgb(240, 224, 199);
+        height: 150px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .navegacion{
+        list-style-type: none;
+        margin: 10px;
+        display: flex;
+        height: 150px;
+        width: 100%;
+        flex-flow: row nowrap;
+        background-color:rgb(240, 224, 199);
+        height: 70px;
+        justify-content:space-evenly;
+        transform: translateY(25px);
+        
+    }
+    
+    .botonNav{
+        display: flex;
+        background-color: rgb(37, 66, 94);
+        text-decoration: none;
+        color: rgb(251, 251, 251);
+        padding: 10px 20px 10px 20px;
+        border-bottom:3px solid rgb(31, 56, 80) ;
+        border-right: 3px solid rgb(31, 56, 80); 
+        border-radius: 10%;
+        margin-top: 10px;
+    }
+    .botonNav:hover {
+        color:rgb(240, 224, 199);
+    
+    }
+    .piePagina_tituloMaps{
+        padding-bottom: 10px;
+    }
+    .piePagina iframe{
+       width: 400px;
+    
+    }
+    .piePagina_1{
+        padding: 10px;
+        flex-flow: column;
+    }
+    .piePagina_2{
+        padding: 100px 10px 5px;
+        flex-flow: column;
+        
+    }
+    .derechos{
+        color: rgb(91, 91, 91);
+    }
+    .linkFooter{
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .logoFooter{
+        width: 15px;
+        height: 15px;
+        border-radius: 5%;
+        background-color: none;
+        margin-right: 2px;
+    }
+}
