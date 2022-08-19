@@ -252,6 +252,14 @@
         color:rgb(240, 224, 199);
     
     }
+    .piePagina{
+        background-color: rgb(47, 47, 47);
+        color: rgb(255, 255, 255);
+        display: flex;
+        padding: 10px;
+        flex-flow: row; 
+        font-family: 'Roboto Condensed', sans-serif;   
+    }
     .piePagina_tituloMaps{
         padding-bottom: 10px;
     }
