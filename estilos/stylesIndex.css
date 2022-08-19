@@ -39,7 +39,7 @@
     background-color: rgb(37, 66, 94);
     text-decoration: none;
     color: rgb(251, 251, 251);
-    padding: 10px 20px 10px 20px;
+    padding: 10px 13px 10px 13px;
     border-bottom:3px solid rgb(31, 56, 80) ;
     border-right: 3px solid rgb(31, 56, 80); 
     border-radius: 10%;
@@ -156,22 +156,22 @@
         background-color:rgb(37, 66, 94) ;
         
     }
-    .logoHeader{
-        padding: 0px;
-        width: 150px;
-        height: 150px;
-    }
-    
-    
+
     .headerMenu{
-        grid-area: header;
         display: flex;
         flex-direction: row;
         justify-content: center;  
         align-content: center;
         background-color: rgb(240, 224, 199);
         height: 150px;
+        width: 100%;
         font-family: 'Roboto Condensed', sans-serif;
+        grid-area: header;
+    }
+    .logoHeader{
+        padding: 0px;
+        width: 150px;
+        height: 150px;
     }
     .navegacion{
         list-style-type: none;
@@ -216,6 +216,8 @@
         background-color: rgb(37, 66, 94);
         color: rgb(255, 255, 255);
         border: 1px solid rgb(240, 224, 199);
+        width: auto;
+        height: auto;
         margin: 5px;
 
     }
@@ -239,6 +241,36 @@
         color: rgb(255, 255, 255);
         font-family: 'Roboto Condensed', sans-serif;
         padding-left: 15px;
+    }
+    .piePagina_tituloMaps{
+        padding-bottom: 10px;
+    }
+    .piePagina iframe{
+       width: 400px;
+    
+    }
+    .piePagina_1{
+        padding: 10px;
+        flex-flow: column;
+    }
+    .piePagina_2{
+        padding: 100px 10px 5px;
+        flex-flow: column;
+        
+    }
+    .derechos{
+        color: rgb(91, 91, 91);
+    }
+    .linkFooter{
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .logoFooter{
+        width: 15px;
+        height: 15px;
+        border-radius: 5%;
+        background-color: none;
+        margin-right: 2px;
     }
     
 }
