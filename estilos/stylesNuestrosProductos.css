@@ -2,6 +2,104 @@
     margin: 0px;
     padding: 0px;
 }
+.logoHeader{
+    padding: 0px;
+    width: 100%;
+    height: 40%;
+    
+}
+.headerMenu{
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;  
+    align-content: center;
+    background-color: rgb(240, 224, 199);
+    height: 300px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navegacion{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 20% 20% 20%;
+    height: 45%;
+    width: 100%;
+    flex-flow: column;
+    background-color:rgb(240, 224, 199);
+    justify-content:space-evenly;
+    transform: translateY(25px);
+    
+}
+
+.botonNav{
+    display:inline;
+    background-color: rgb(37, 66, 94);
+    text-decoration: none;
+    color: rgb(251, 251, 251);
+    padding: 10px 13px 10px 13px;
+    border-bottom:3px solid rgb(31, 56, 80) ;
+    border-right: 3px solid rgb(31, 56, 80); 
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.botonNav:hover {
+    color:rgb(240, 224, 199);
+
+}
+
+
+.piePagina{
+    background-color: rgb(47, 47, 47);
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 10px;
+    flex-flow: row; 
+    font-family: 'Roboto Condensed', sans-serif;   
+
+}
+.piePagina_tituloMaps{
+    padding-bottom: 10px;
+}
+.piePagina iframe{
+   width: 100%;
+
+}
+.piePagina_1{
+    padding: 5px;
+    flex-flow: column;
+}
+.piePagina_2{
+    margin-left: 5px;
+    padding-top: 60px;
+    flex-flow: column;   
+}
+.derechos{
+    color: rgb(91, 91, 91);
+}
+.linkFooter{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+.linkFooter:hover{
+    color: rgb(87, 87, 221);
+}
+.logoFooter{
+    width: 15px;
+    height: 15px;
+    border-radius: 5%;
+    background-color: none;
+    margin-right: 2px;
+}
+
+
+.titulosPag{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:rgb(37, 66, 94) ;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
 
 @media screen and (min-width:1024px) {
 
@@ -14,6 +112,7 @@
 
     .headerMenu{
         display: flex;
+        flex-direction: row;
         justify-content: center;  
         align-content: center;
         background-color: rgb(240, 224, 199);
@@ -39,7 +138,7 @@
         background-color: rgb(37, 66, 94);
         text-decoration: none;
         color: rgb(251, 251, 251);
-        padding: 10px 20px 10px 20px;
+
         border-bottom:3px solid rgb(31, 56, 80) ;
         border-right: 3px solid rgb(31, 56, 80); 
         border-radius: 10%;
