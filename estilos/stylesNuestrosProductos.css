@@ -46,7 +46,6 @@
 }
 .botonNav:hover {
     color:rgb(240, 224, 199);
-
 }
 
 
@@ -100,6 +99,8 @@
     color: rgb(255, 255, 255);
     padding-left: 10px;
 }
+
+
 @media screen and (min-width:1024px) {
 
     .logoHeader{
@@ -196,7 +197,7 @@
     .titulosPag{
         font-family: 'Roboto Condensed', sans-serif;
         background-color:rgb(37, 66, 94) ;
-        color: rgb(255, 255, 255);
+       color: rgb(255, 255, 255);
         padding-left: 10px;
     }
 }
