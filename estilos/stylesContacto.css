@@ -44,6 +44,7 @@
     border-right: 3px solid rgb(31, 56, 80); 
     border-radius: 10%;
     margin-top: 10px;
+    margin-left: 5px;
 }
 .botonNav:hover {
     color:rgb(240, 224, 199);
@@ -72,9 +73,9 @@
     flex-flow: column;
 }
 .piePagina_2{
-    padding-top: 20 px;
-    flex-flow: column;
-    
+    margin-left: 5px;
+    padding-top: 60px;
+    flex-flow: column;   
 }
 .derechos{
     color: rgb(91, 91, 91);
@@ -82,6 +83,9 @@
 .linkFooter{
     color:rgb(255, 255, 255);
     text-decoration: none;
+}
+.linkFooter:hover{
+    color: rgb(87, 87, 221);
 }
 .logoFooter{
     width: 15px;
@@ -247,6 +251,7 @@
         border-right: 3px solid rgb(31, 56, 80); 
         border-radius: 10%;
         margin-top: 10px;
+        margin-left: 5px;
     }
     .botonNav:hover {
         color:rgb(240, 224, 199);
