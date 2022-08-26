@@ -11,7 +11,7 @@
 
 
 .headerMenu{
-    grid-area: header;
+   
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;  
@@ -176,30 +176,12 @@
     font-family: 'Roboto Condensed', sans-serif;
 
 }
-#grillaContacto{
-    grid-template-areas: 
-    "header"
-    "formulario1"
-    "formulario2"
-    "slider"
-    "footer";
-    background-color: rgb(37, 66, 94);
 
-}
+
+
 @media screen and (min-width:1024px) {
     
 
-    #grillaContacto{
-        display: grid;
-        grid-template-areas: 
-        "header header header"
-        "tituloPag tituloPag tituloPag"
-        "formulario1 formulario2 slider"
-        "formulario1 Formulario2 slider"
-        "footer footer footer";
-        background-color: rgb(37, 66, 94) ;
-
-    }
     .slider{
         grid-area: slider;
         height: 500px;
