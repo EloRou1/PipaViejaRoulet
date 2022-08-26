@@ -11,7 +11,7 @@
 
 
 .headerMenu{
-    grid-area: header;
+    
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;  
@@ -58,7 +58,7 @@
     padding: 10px;
     flex-flow: row; 
     font-family: 'Roboto Condensed', sans-serif;   
-    grid-area: footer;
+  
 }
 .piePagina_tituloMaps{
     padding-bottom: 10px;
@@ -104,63 +104,37 @@
     padding-left: 10px;
 }
 .slider{
-    grid-area: slider;
-    height: 100px;
-    width: 100%;
     background-color: rgb(37, 66, 94);
     color: rgb(255, 255, 255);
     border: 1px solid rgb(240, 224, 199);
     margin: 5px 0px 5px 5px
 }
 .quienesSomos{
-    grid-area: article;
+
     background-color: rgb(37, 66, 94);
     color: rgb(255, 255, 255);
     border: 1px solid rgb(240, 224, 199);
-    height: 400px;
-    width: 100%;
     margin: 5px;
 
 }
 .anuncios{
-    grid-area: anuncios;
+
     background-color: rgb(37, 66, 94);
     color: rgb(255, 255, 255);
     border: 1px solid rgb(240, 224, 199);
     margin: 5px;
 }
 .promociones{
-    grid-area: promociones;
+
     background-color: rgb(37, 66, 94);
     color: rgb(255, 255, 255);
     border: 1px solid rgb(240, 224, 199);
     margin: 5px;
 
 }
-#grillaIndex{
-    display:grid;
-    grid-template-areas: 
-    "header"
-    "slider"
-    "article"
-    "anuncios"
-    "promociones"
-    "footer";
-    background-color: rgb(37, 66, 94) ;
-}
-@media screen and (min-width:1024px) {
-    
 
-    #grillaIndex{
-        display: grid;
-        grid-template-areas: 
-        "header header header"
-        "slider article article"
-        "slider anuncios promociones"
-        "footer footer footer";
-        background-color:rgb(37, 66, 94) ;
-        
-    }
+@media screen and (min-width:1024px) {
+
 
     .headerMenu{
         display: flex;
@@ -171,7 +145,7 @@
         height: 150px;
         width: 100%;
         font-family: 'Roboto Condensed', sans-serif;
-        grid-area: header;
+       
     }
     .logoHeader{
         padding: 0px;
@@ -210,8 +184,6 @@
     }
     .slider{
         grid-area: slider;
-        height: 500px;
-        width: 250px;
         background-color: rgb(37, 66, 94);
         color: rgb(255, 255, 255);
         border: 1px solid rgb(240, 224, 199);
@@ -228,14 +200,14 @@
 
     }
     .anuncios{
-        grid-area: anuncios;
+      
         background-color: rgb(37, 66, 94);
         color: rgb(255, 255, 255);
         border: 1px solid rgb(240, 224, 199);
         margin: 5px;
     }
     .promociones{
-        grid-area: promociones;
+  
         background-color: rgb(37, 66, 94);
         color: rgb(255, 255, 255);
         border: 1px solid rgb(240, 224, 199);
@@ -247,6 +219,9 @@
         color: rgb(255, 255, 255);
         font-family: 'Roboto Condensed', sans-serif;
         padding-left: 15px;
+    }
+    .piePagina{
+  
     }
     .piePagina_tituloMaps{
         padding-bottom: 10px;
