@@ -73,7 +73,7 @@
 }
 .piePagina_2{
     margin-left: 5px;
-    padding-top: 60px;
+    padding-top: 55px;
     flex-flow: column;   
 }
 .derechos{
@@ -137,7 +137,7 @@
     border-radius: 5%;
     padding: 3px;
     font-family: 'Roboto Condensed', sans-serif;
-    width: 10%;
+    width: 40px;
     margin-top: 3px;
 }
 .formularioContacto1-botones{
