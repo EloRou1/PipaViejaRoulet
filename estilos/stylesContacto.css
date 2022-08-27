@@ -254,7 +254,7 @@
     }
     .botonNav:hover {
         color:rgb(240, 224, 199);
-        transform: scale(1.1, 1.1);
+        transform: scale(1.05, 1.05);
     }
     .piePagina{
         background-color: rgb(47, 47, 47);

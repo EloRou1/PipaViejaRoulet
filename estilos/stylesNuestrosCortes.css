@@ -123,7 +123,7 @@
 
 
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:768px){
     
 
     .headerMenu{
@@ -166,9 +166,11 @@
         border-right: 3px solid rgb(31, 56, 80); 
         border-radius: 10%;
         margin-top: 10px;
+        transition: transform .5s;
     }
     .botonNav:hover {
         color:rgb(240, 224, 199);
+        transform: scale(1.05, 1.05);
     
     }
     .texto{

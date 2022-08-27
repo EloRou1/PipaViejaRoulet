@@ -140,15 +140,15 @@
 #grillaIndex{
     display:grid;
     grid-template-areas: 
-    "header"
-    "slider"
-    "article"
-    "anuncios"
-    "promociones"
-    "footer";
+    "header header"
+    "slider article"
+    "slider article"
+    "anuncios anuncios"
+    "promociones promociones"
+    "footer footer";
     background-color: rgb(37, 66, 94) ;
 }
-@media screen and (min-width:1024px) {
+@media screen and (min-width:768px) {
     
 
     #grillaIndex{
@@ -206,7 +206,7 @@
     }
     .botonNav:hover {
         color:rgb(240, 224, 199);
-        transform: scale(1.1, 1.1);
+        transform: scale(1.05, 1.05);
     }
     .slider{
         grid-area: slider;
@@ -239,7 +239,7 @@
         background-color: rgb(37, 66, 94);
         color: rgb(255, 255, 255);
         border: 1px solid rgb(240, 224, 199);
-        margin: 5px;
+       
 
     }
     .texto{
