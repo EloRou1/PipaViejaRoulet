@@ -8,6 +8,14 @@
     height: 40%;
     
 }
+.cuerpo{
+    background-color:rgb(37, 66, 94) ;
+}
+.containerProductos{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:rgb(37, 66, 94)  ;
+}
 
 
 .headerMenu{

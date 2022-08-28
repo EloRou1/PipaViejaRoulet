@@ -1,6 +1,10 @@
 * {
     margin: 0px;
     padding: 0px;
+    
+}
+.cuerpo{
+    background-color: rgb(37, 66, 94);
 }
 .logoHeader{
     padding: 0px;
@@ -98,6 +102,11 @@
     background-color:rgb(37, 66, 94) ;
     color: rgb(255, 255, 255);
     padding-left: 10px;
+}
+.containerServicios{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:rgb(37, 66, 94)  ;
 }
 
 @media screen and (min-width:768px){
