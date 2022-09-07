@@ -22,7 +22,7 @@
         padding-top: 55px;
         @extend %flexColumn;
         .derechos{
-            color: rgb(91, 91, 91);
+            color: map-get($map: colores, $key: colorTexto2) ;
         }
         .logoFooter{
             width: 15px;
