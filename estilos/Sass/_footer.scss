@@ -1,6 +1,6 @@
 .piePagina{
     background-color: rgb(47, 47, 47);
-    color: rgb(255, 255, 255);
+    color: map-get($colores, colorTexto);
     display: flex;
     padding: 10px;
     flex-flow: row; 
@@ -15,12 +15,12 @@
     }
     .piePagina_1{
         padding: 5px;
-        flex-flow: column;
+        @extend %flexColumn;
     }
     .piePagina_2{
         margin-left: 5px;
         padding-top: 55px;
-        flex-flow: column;
+        @extend %flexColumn;
         .derechos{
             color: rgb(91, 91, 91);
         }
@@ -30,14 +30,10 @@
             border-radius: 5%;
             background-color: none;
             margin-right: 2px;
+            
         }
         .linkFooter{
-            color:rgb(255, 255, 255);
-            text-decoration: none;
-        
-            &:hover{
-                color: rgb(87, 87, 221);
-            }
+            @include link
         }
     }
 }

@@ -14,7 +14,7 @@
     flex-flow: column nowrap;
     justify-content: center;  
     align-content: center;
-    background-color: rgb(240, 224, 199);
+    background-color:map-get($map: $colores, $key: colorPrimario);
     height: 300px;
     font-family: 'Roboto Condensed', sans-serif;
     .navegacion{
@@ -25,14 +25,14 @@
         height: 45%;
         width: 100%;
         flex-flow: column;
-        background-color:rgb(240, 224, 199);
+        background-color:map-get($map: $colores, $key: colorPrimario);
         justify-content:space-evenly;
         transform: translateY(25px);
         .botonNav{
             display:inline;
-            background-color: rgb(37, 66, 94);
+            background-color: map-get($map: $colores, $key: colorSecundario);
             text-decoration: none;
-            color: rgb(251, 251, 251);
+            color: map-get($map: colores, $key: colorTexto1);
             padding: 10px 13px 10px 13px;
             border-bottom:3px solid rgb(31, 56, 80) ;
             border-right: 3px solid rgb(31, 56, 80); 
@@ -41,7 +41,7 @@
             margin-left: 5px;
         
             &:hover {
-                color:rgb(240, 224, 199);
+                color:map-get($map: colores, $key: colorPrimario);
             }
         }
         

@@ -1,3 +1,8 @@
+.piePagina .piePagina_2, .piePagina .piePagina_1 {
+  display: flex;
+  flex-direction: column;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -157,12 +162,10 @@
 }
 .piePagina .piePagina_1 {
   padding: 5px;
-  flex-flow: column;
 }
 .piePagina .piePagina_2 {
   margin-left: 5px;
   padding-top: 55px;
-  flex-flow: column;
 }
 .piePagina .piePagina_2 .derechos {
   color: rgb(91, 91, 91);

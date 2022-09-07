@@ -1,8 +1,8 @@
 .titulosPag{
     grid-area: tituloPag    ;
     font-family: 'Roboto Condensed', sans-serif;
-    background-color:rgb(37, 66, 94) ;
-    color: rgb(255, 255, 255);
+    background-color:map-get($map: colores, $key: colorSecundario);
+    color:map-get($map: colores, $key: colorTexto1);
     padding-left: 10px;
 }
 .formularioContacto1{
@@ -11,14 +11,14 @@
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(37, 66, 94);
-    color: rgb(255, 255, 255);
+    background-color:map-get($map: colores, $key: colorSecundario) ;
+    color: map-get($map: colores, $key: colorTexto) ;
     display: flex;
     flex-direction: column;
     grid-area: formulario1;
     .inputFormulario{
         color: rgb(1, 1, 1);
-        background-color: rgb(240, 224, 199);
+        background-color: map-get($map: colores, $key: colorPrimario) ;
         border-style: none;
         border-bottom:3px solid rgb(240, 224, 199) ;
         border-right: 3px solid rgb(240, 224, 199); 
@@ -31,7 +31,7 @@
     }
     .inputFormulario1{
         color: rgb(1, 1, 1);
-        background-color: rgb(240, 224, 199);
+        background-color: map-get($map: colores, $key: colorPrimario) ;
         border-style: none;
         border-bottom:3px solid rgb(240, 224, 199) ;
         border-right: 3px solid rgb(240, 224, 199); 
@@ -49,14 +49,14 @@
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(37, 66, 94);
-    color: rgb(255, 255, 255);
+    background-color:map-get($map: colores, $key: colorSecundario) ;
+    color: map-get($map: colores, $key: colorTexto1) ;
     display: flex;
     flex-direction: column;
     grid-area: formulario2;
     .inputFormulario{
         color: rgb(1, 1, 1);
-        background-color: rgb(240, 224, 199);
+        background-color: map-get($map: colores, $key: colorPrimario) ;
         border-style: none;
         border-bottom:3px solid rgb(240, 224, 199) ;
         border-right: 3px solid rgb(240, 224, 199); 
@@ -69,7 +69,7 @@
     }
     .inputFormulario1{
         color: rgb(1, 1, 1);
-        background-color: rgb(240, 224, 199);
+        background-color: map-get($map: colores, $key: colorPrimario);
         border-style: none;
         border-bottom:3px solid rgb(240, 224, 199) ;
         border-right: 3px solid rgb(240, 224, 199); 
@@ -86,7 +86,7 @@
     grid-area: slider;
     height: 100px;
     width: 100%;
-    background-color: rgb(37, 66, 94);
-    color: rgb(255, 255, 255);
+    background-color:map-get($map: colores, $key: colorSecundario);
+    color: map-get($map: colores, $key: colorTexto1) ;
     border: 1px solid rgb(240, 224, 199);
 }
