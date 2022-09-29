@@ -5,7 +5,7 @@
     padding: 10px;
     flex-flow: row; 
     font-family: 'Roboto Condensed', sans-serif;   
-    grid-area: footer;
+    
     .piePagina_tituloMaps{
         padding-bottom: 10px;
     }
@@ -16,11 +16,13 @@
     .piePagina_1{
         padding: 5px;
         @extend %flexColumn;
+        width: 50%;
     }
     .piePagina_2{
         margin-left: 5px;
         padding-top: 55px;
         @extend %flexColumn;
+        width:50%;
         .derechos{
             color: map-get($map: colores, $key: colorTexto2) ;
         }
@@ -30,11 +32,12 @@
             border-radius: 5%;
             background-color: none;
             margin-right: 2px;
-            display: inline;
+            display: inline-block;
             
         }
         .linkFooter{
-            @include link
+            @include link;
+            display: inline-block;
         }
     }
 }

@@ -1,5 +1,14 @@
+#grillaContacto{
+    grid-template-areas: 
+    "header"
+    "formulario1"
+    "formulario2"
+    "slider"
+    "footer";
+    background-color: rgb(37, 66, 94);
+}
 .titulosPag{
-    grid-area: tituloPag    ;
+    
     font-family: 'Roboto Condensed', sans-serif;
     background-color:map-get($map: colores, $key: colorSecundario);
     color:map-get($map: colores, $key: colorTexto1);
@@ -89,4 +98,7 @@
     background-color:map-get($map: colores, $key: colorSecundario);
     color: map-get($map: colores, $key: colorTexto1) ;
     border: 1px solid rgb(240, 224, 199);
+}
+.footer{
+    grid-area: footer;
 }
