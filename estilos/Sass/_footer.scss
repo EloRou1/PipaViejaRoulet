@@ -9,7 +9,7 @@
     .piePagina_tituloMaps{
         padding-bottom: 10px;
     }
-    .piePagina iframe{
+    .piePaginaIframe{
         width: 100%;
      
     }
@@ -30,6 +30,7 @@
             border-radius: 5%;
             background-color: none;
             margin-right: 2px;
+            display: inline;
             
         }
         .linkFooter{
