@@ -111,6 +111,7 @@
     color: rgb(255, 255, 255);
     margin: 5px 0px 5px 5px;
     height: 90%;
+    display: none;
     
 
 }
@@ -150,13 +151,13 @@
 #grillaIndex{
     display:grid;
     grid-template-areas: 
-    "header header"
-    "slider article"
-    "slider  article"
-    "anuncios anuncios"
-    "promociones promociones"
-    "promociones2 promociones2"
-    "footer footer";
+    "header "
+    "article"
+    "article"
+    "anuncios "
+    "promociones"
+    "promociones2"
+    "footer ";
     background-color: rgb(37, 66, 94) ;
 }
 @media screen and (min-width:768px) {
@@ -220,13 +221,14 @@
         transform: scale(1.05, 1.05);
     }
     .slider{
+        display: grid;
         grid-area: slider;
         height: 500px;
         width: 250px;
         background-color: rgb(37, 66, 94);
         color: rgb(255, 255, 255);
         margin: 5px 0px 5px 5px;
-        height: 200%;
+        height: 100%;
         padding-top: 20px;
         padding-left: 10px;
     }
@@ -245,8 +247,8 @@
         color: rgb(255, 255, 255);
         padding-left: 40px;
         margin: 5px;
-        width: 65%;
-        height: 65%;
+        width: 67%;
+        height: 67%;
     }
     .promociones{
         grid-area: promociones;
