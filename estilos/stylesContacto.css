@@ -73,7 +73,7 @@
 }
 .piePagina_2{
     margin-left: 5px;
-    padding-top: 55px;
+    padding-top: 40px;
     flex-flow: column;   
 }
 .derechos{
@@ -162,14 +162,7 @@
     
 
 }
-.slider{
-    grid-area: slider;
-    height: 100px;
-    width: 100%;
-    background-color: rgb(37, 66, 94);
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(240, 224, 199);
-}
+
 .texto{
     background-color: rgb(37, 66, 94);
     color: rgb(255, 255, 255);

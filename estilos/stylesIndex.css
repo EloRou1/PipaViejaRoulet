@@ -1,4 +1,4 @@
-* {
+* { font-family: 'Roboto Condensed', sans-serif !important;
     margin: 0px;
     padding: 0px;
 }
@@ -69,7 +69,7 @@
 }
 .piePagina_2{
     margin-left: 5px;
-    padding-top: 55px;
+    padding-top: 20px;
     flex-flow: column;
     
 }
@@ -77,9 +77,9 @@
     color: rgb(87, 87, 221);
 }
 .piePagina_2{
-    padding-top: 20 px;
+    padding-top: 15px;
     flex-flow: column;
-    
+    padding-left: 5px;    
 }
 .derechos{
     color: rgb(91, 91, 91);
@@ -109,42 +109,53 @@
     width: 100%;
     background-color: rgb(37, 66, 94);
     color: rgb(255, 255, 255);
-    border: 1px solid rgb(240, 224, 199);
-    margin: 5px 0px 5px 5px
+    margin: 5px 0px 5px 5px;
+    height: 90%;
+    
+
 }
 .quienesSomos{
     grid-area: article;
     background-color: rgb(37, 66, 94);
     color: rgb(255, 255, 255);
-    border: 1px solid rgb(240, 224, 199);
     height: 400px;
     width: 100%;
     margin: 5px;
+    padding-left: 20px;
 
 }
 .anuncios{
     grid-area: anuncios;
     background-color: rgb(37, 66, 94);
     color: rgb(255, 255, 255);
-    border: 1px solid rgb(240, 224, 199);
-    margin: 5px;
+    margin: 15px;
+    width: 90%;
 }
 .promociones{
     grid-area: promociones;
     background-color: rgb(37, 66, 94);
     color: rgb(255, 255, 255);
-    border: 1px solid rgb(240, 224, 199);
-    margin: 5px;
-
+    margin: 15px;
+    width: 90%;
 }
+.promociones2{
+    grid-area: promociones2;
+    background-color: rgb(37, 66, 94);
+    color: rgb(255, 255, 255);
+    margin: 15px;
+    width: 90%;
+}
+
+
 #grillaIndex{
     display:grid;
     grid-template-areas: 
     "header header"
     "slider article"
-    "slider article"
+    "slider  article"
     "anuncios anuncios"
     "promociones promociones"
+    "promociones2 promociones2"
     "footer footer";
     background-color: rgb(37, 66, 94) ;
 }
@@ -154,10 +165,10 @@
     #grillaIndex{
         display: grid;
         grid-template-areas: 
-        "header header header"
-        "slider article article"
-        "slider anuncios promociones"
-        "footer footer footer";
+        "header header header header"
+        "slider article article article"
+        "slider anuncios promociones promociones2"
+        "footer footer footer footer";
         background-color:rgb(37, 66, 94) ;
         
     }
@@ -214,14 +225,15 @@
         width: 250px;
         background-color: rgb(37, 66, 94);
         color: rgb(255, 255, 255);
-        border: 1px solid rgb(240, 224, 199);
-        margin: 5px 0px 5px 5px
+        margin: 5px 0px 5px 5px;
+        height: 200%;
+        padding-top: 20px;
+        padding-left: 10px;
     }
     .quienesSomos{
         grid-area: article;
         background-color: rgb(37, 66, 94);
         color: rgb(255, 255, 255);
-        border: 1px solid rgb(240, 224, 199);
         width: auto;
         height: auto;
         margin: 5px;
@@ -231,16 +243,26 @@
         grid-area: anuncios;
         background-color: rgb(37, 66, 94);
         color: rgb(255, 255, 255);
-        border: 1px solid rgb(240, 224, 199);
+        padding-left: 40px;
         margin: 5px;
+        width: 65%;
+        height: 65%;
     }
     .promociones{
         grid-area: promociones;
         background-color: rgb(37, 66, 94);
-        color: rgb(255, 255, 255);
-        border: 1px solid rgb(240, 224, 199);
-       
-
+        color: rgb(255, 255, 255); 
+        margin: 5px;
+        width: 65%;
+        height: 65%;
+    }
+    .promociones2{
+        grid-area: promociones2;
+        background-color: rgb(37, 66, 94);
+        color: rgb(255, 255, 255); 
+        margin: 5px;
+        width: 65%;
+        height: 65%;
     }
     .texto{
         background-color: rgb(37, 66, 94);
