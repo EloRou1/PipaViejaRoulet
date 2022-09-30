@@ -158,7 +158,11 @@
         transform: scale(1.05, 1.05);
     }
 
-
+    .containerServicios{
+        display:flex;
+        justify-content:space-evenly;
+        background-color:rgb(37, 66, 94)  ;
+    }
     .piePagina{
         background-color: rgb(47, 47, 47);
         color: rgb(255, 255, 255);

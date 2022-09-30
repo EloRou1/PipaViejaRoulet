@@ -51,8 +51,13 @@
 }
 
 #contenedorCortes{
-    background-color:rgb(37, 66, 94) ;
+    background-color:rgb(37, 66, 94);
+    justify-content: space-evenly;
     margin: 0px;
+    padding-bottom: 10px;
+}
+.cardCortes{
+    padding: 10px 10px 10px 10px;
 }
 .nombresCortes{
     font-family: 'Roboto Condensed', sans-serif;
@@ -179,6 +184,15 @@
         color: rgb(255, 255, 255);
         font-family: 'Roboto Condensed', sans-serif;
         padding-left: 15px;
+    }
+    #contenedorCortes{
+        background-color:rgb(37, 66, 94);
+        margin: 0px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .cardCortes{
+        padding: 10px 10px 10px 10px;
     }
     .piePagina_tituloMaps{
         padding-bottom: 10px;
